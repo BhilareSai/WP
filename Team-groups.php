@@ -75,7 +75,7 @@ $blogData = mysqli_query($con, $sql);
         if ($i % 2 == 0) {
           echo "<div class='officer row mb-4'>
       <div class='col-lg-3 d-flex justify-content-center align-items-center'>
-        <img src='http://localhost/metalHealth/MindWell/Profiles/$profile' alt='Abigayle Peterson, Founder and CEO' class='officer-photo' />
+        <img src='http://localhost/WP/Profiles/$profile' alt='Abigayle Peterson, Founder and CEO' class='officer-photo' />
       </div>
       <div class='col-lg-9 text'>
         <div class='big'>$name</div>
@@ -95,7 +95,7 @@ $blogData = mysqli_query($con, $sql);
         </div>
       </div>
       <div class='col-lg-3 d-flex justify-content-center align-items-center'>
-        <img src='http://localhost/metalHealth/MindWell/Profiles/$profile' class='officer-photo' />
+        <img src='http://localhost/WP/Profiles/$profile' class='officer-photo' />
       </div>
     </div>";
         }

@@ -272,7 +272,7 @@ if (isset($_COOKIE["email"])) {
                     <div class="row no-margin">
                         <div class="col-md-3 img-c">
 
-                            <img src=<?php echo "http://localhost/metalHealth/MindWell/profiles/" . $row['profile']; ?> alt="">
+                            <img src=<?php echo "http://localhost/WP/profiles/" . $row['profile']; ?> alt="">
                         </div>
                         <div class="col-md-9 tit-det">
                             <h2><?php echo  $row['name'] . " | BLOG WRITTER";  ?></h2>
@@ -321,7 +321,7 @@ if (isset($_COOKIE["email"])) {
                                 <td><strong>$name</strong></td>
                                 <td>$date</td>
                                 <td>$des</td>
-                                <td> <a href='http://localhost/metalHealth/MindWell/banners/$image' target='_blank'>Image </a> </td>
+                                <td> <a href='http://localhost/WP/banners/$image' target='_blank'>Image </a> </td>
                             </tr>";
                                 }
                             } else {

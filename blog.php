@@ -90,7 +90,7 @@ Magnify Wellness Blog,
             echo "<div class='col-md-4'>
           <div class='card'>
             <div class='mik-card'>
-              <img src='http://localhost/metalHealth/MindWell/banners/$image' alt='meet Mikaela' style='width:100%' loading='lazy'>
+              <img src='http://localhost/WP/banners/$image' alt='meet Mikaela' style='width:100%' loading='lazy'>
               <div class='container'>
                 <h4 class='text-center'><b>$name </b></h4><br>
                 <p>$des</p>
